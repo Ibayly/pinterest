@@ -1,0 +1,176 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.logo{
+    width: 30px;
+    
+}
+
+.btninicio{
+    background-color: black;
+    color: white;
+    border-radius: 20px; 
+    height: 40px;
+    width: 70px;
+    border: none;
+
+}
+
+.btnexplorer{
+    background-color: white;
+    color: black;
+    border-radius: 35px;
+    padding: 20px;
+    width: 70px;
+    border: none;
+}
+.headerflex{
+    display: flex;
+    justify-content: space-between; 
+    gap: 8px;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+
+}
+
+
+.iconos{
+    width: 35px;
+    height: 35px;   
+    padding: 5px;
+}
+.iconos:hover{
+    background-color: rgb(138, 136, 136);
+    border-radius: 100px;
+    
+
+}
+
+.barra{
+    background-color: rgba(173, 168, 168, 0.664);
+    color: black;
+    border-radius: 20px; 
+    height: 40px;
+    width: 900px;
+    border: none;
+    padding-left: 20px;
+}
+
+.card-images{
+    columns: 5;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+.playas{
+    width: 100%;
+    position: relative;
+    margin-bottom: 18px;
+    
+}
+.imgplayas{
+    border-radius: 30px;
+    
+    width: 100%;
+    height: 100%;
+
+}
+.capa{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+    background-color: rgba(165, 149, 149,0.5);
+    border-radius: 30px;
+    opacity: 0;
+   
+
+}
+.capa:hover{
+    opacity: 1;
+}
+.share{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.btn-cap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.save{
+    background-color: red;
+    margin-top: 25px;
+    border-radius: 25px;
+    width: 70px;
+    height: 50px;
+    border: none;
+    margin-right: 40px;
+    color: white 
+}
+.buttonp{
+    background: transparent;
+    border: none;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+    font-size: medium;
+}
+
+@media (max-width:1250px){
+    .card-images{
+        columns: 4;
+     }
+
+     .barra{
+        background-color: rgba(173, 168, 168, 0.664);
+        width: 700px;  
+}
+}
+@media (max-width:1050px){
+    .card-images{
+        columns: 3;
+        
+     }
+     .barra{
+        background-color: rgba(173, 168, 168, 0.664);
+        width: 550px;  
+}
+
+}
+@media (max-width:950px){
+    .card-images{
+        columns: 2;   
+     }
+     .barra{
+        background-color: rgba(173, 168, 168, 0.664);
+        width: 350px;  
+}
+
+
+
+}
+
